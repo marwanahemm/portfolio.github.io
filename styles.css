@@ -171,3 +171,47 @@ section {
     border-radius: var(--border-radius);
     border: 2px solid var(--color-primary);
 }
+.form-group {
+    margin-bottom: var(--spacing-small);
+    text-align: left;
+}
+
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--color-text-light);
+    font-weight: bold;
+}
+
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--color-bg-card);
+    border: 2px solid var(--color-primary);
+    border-radius: 5px;
+    font-size: 16px;
+    color: var(--color-white);
+    font-family: Arial, sans-serif;
+}
+
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: var(--color-text-placeholder);
+}
+
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--color-secondary);
+}
+
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
