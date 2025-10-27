@@ -47,3 +47,64 @@ body {
 .navbar a:hover {
     color: var(--color-primary);
 }
+/* Sections */
+section {
+    padding: 100px 20px;
+    text-align: center;
+    min-height: 100vh;
+}
+
+
+/* Section Accueil */
+.welcome-section {
+    background-color: var(--color-bg-dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.welcome-section h1 {
+    font-size: 50px;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-small);
+}
+
+
+.welcome-section p {
+    font-size: 24px;
+    color: var(--color-text-light);
+}
+
+
+/* Projects Section */
+.projects {
+    background-color: var(--color-bg-medium);
+}
+
+
+.projects h2 {
+    font-size: 40px;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-large);
+}
+
+
+.projects-grid {
+    display: flex;
+    gap: var(--spacing-medium);
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.project-tile {
+    background-color: var(--color-bg-card);
+    border: 2px solid var(--color-primary);
+    border-radius: var(--border-radius);
+    width: 300px;
+    transition: transform var(--transition-speed);
+}
