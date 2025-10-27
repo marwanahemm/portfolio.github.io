@@ -108,3 +108,39 @@ section {
     width: 300px;
     transition: transform var(--transition-speed);
 }
+
+
+.project-tile:hover {
+    transform: scale(1.05);
+}
+
+
+.project-tile a {
+    text-decoration: none;
+    color: var(--color-white);
+    display: block;
+}
+
+
+.project-tile img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+
+.project-tile h3 {
+    padding: var(--spacing-small);
+    font-size: 20px;
+}
+
+
+/* Section Contact */
+.contact {
+    background-color: var(--color-bg-dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
