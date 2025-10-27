@@ -144,3 +144,30 @@ section {
     justify-content: center;
     align-items: center;
 }
+
+
+
+.contact h2 {
+    font-size: 40px;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-small);
+}
+
+
+.contact > p {
+    font-size: 20px;
+    color: var(--color-text-light);
+    margin-bottom: var(--spacing-small);
+}
+
+
+/* Formulaire de contact */
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    margin: var(--spacing-medium) auto;
+    padding: 40px;
+    background-color: var(--color-bg-medium);
+    border-radius: var(--border-radius);
+    border: 2px solid var(--color-primary);
+}
